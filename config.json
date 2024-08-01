@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "greetings",
+	"namespace": "greetings",
+	"authors": [
+		"leosunsl@outlook.com"
+	],
+	"targetVersion": "1.20.80",
+	"description": "Show greetings for players who login to my bedrock server",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "greetings"
+				}
+			]
+		]
+	}
+}

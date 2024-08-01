@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"leosunsl@outlook.com"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.30"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "greetings",
+		"description": "Show greetings for players who login to my bedrock server",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "655c1ab4-807c-4a19-92f6-c807f40e7905",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "c08c9365-89f1-4f41-a472-d5b88207d94e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "3102fc3b-326a-43db-982f-d38e08cf3c7e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
