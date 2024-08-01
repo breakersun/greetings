@@ -1,4 +1,51 @@
 {
-	"format_version": "1.14.0",
-	"sound_definitions": {}
+    "ice1_horn": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_horn"
+        ]
+    },
+	"ice1_acc": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_acc"
+        ]
+    },
+	"ice1_down": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_down"
+        ]
+    },
+	"ice1_brake": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_brake"
+        ]
+    },
+	"ice1_door": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_door"
+        ]
+    },
+	"ice1_idle": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_idle"
+        ]
+    },
+	"ice1_up": {
+        "category": "music",
+        "max_distance": 64,
+        "sounds": [
+            "sounds/grsound/ice1_up"
+        ]
+    }
 }
