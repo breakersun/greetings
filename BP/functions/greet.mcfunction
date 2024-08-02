@@ -1,5 +1,5 @@
 # Send welcome message to all players
-tellraw @a {"rawtext":[{"text":"Welcome to the server, "},{"selector":"@s"},"!"]}
+tellraw @a {"rawtext":[{"text":"Welcome to the server, "},{"selector":"@s"},{"text":"!"}]}
 
 # Set title times
 titleraw @s times 20 200 20
