@@ -6,21 +6,14 @@
 
 scoreboard objectives add online dummy
 
-# Test player score increment
 scoreboard players add @a online 1
-tellraw @a {"rawtext":[{"text":"Player scores incremented"}]}
-
-# Test total score increment
 scoreboard players add .total online 1
-tellraw @a {"rawtext":[{"text":"Total score incremented"}]}
+tellraw @a {"rawtext":[{"text":"Scores before comparison: "}, {"score":{"name":".total","objective":"online"}}]}
 
-# Test score comparison
 scoreboard players operation @a online -= .total online
-tellraw @a {"rawtext":[{"text":"Scores compared"}]}
 
-# Test greet function execution
-execute as @a[scores={online=..-1}] run tellraw @a {"rawtext":[{"text":"Greet function would run for "}, {"selector":"@s"}]}
+execute as @a run tellraw @a {"rawtext":[{"selector":"@s"},{"text":" score: "},{"score":{"name":"@s","objective":"online"}}]}
 
-# Test score reset
+execute as @a[scores={online=..-1}] run function greet
+
 scoreboard players operation @a online = .total online
-tellraw @a {"rawtext":[{"text":"Scores reset"}]}
