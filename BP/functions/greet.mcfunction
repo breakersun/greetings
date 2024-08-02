@@ -14,6 +14,3 @@ playsound info1 @s
 
 # Apply regeneration effect
 effect @s regeneration 10 1 true
-
-# Set a tag to indicate this player has been greeted
-tag @s add greeted
