@@ -10,6 +10,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "info2": {
+            "sounds": [
+                {
+                    "name": "sounds/info2",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
