@@ -20,6 +20,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "train-welcome": {
+            "sounds": [
+                {
+                    "name": "sounds/train-welcome",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
