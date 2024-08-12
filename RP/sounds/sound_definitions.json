@@ -90,6 +90,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "xiaojinkou": {
+            "sounds": [
+                {
+                    "name": "sounds/xiaojinkou",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
