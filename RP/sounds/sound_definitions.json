@@ -60,6 +60,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "longfeng": {
+            "sounds": [
+                {
+                    "name": "sounds/longfeng",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
