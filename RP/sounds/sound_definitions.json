@@ -70,6 +70,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "xihudong": {
+            "sounds": [
+                {
+                    "name": "sounds/xihudong",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
