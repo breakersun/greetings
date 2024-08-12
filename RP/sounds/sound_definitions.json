@@ -80,6 +80,16 @@
             ],
             "category": "neutral",
             "max_distance": 30.0
+        },
+        "yunshan": {
+            "sounds": [
+                {
+                    "name": "sounds/yunshan",
+                    "volume": 1.0
+                }
+            ],
+            "category": "neutral",
+            "max_distance": 30.0
         }
     }
 }
